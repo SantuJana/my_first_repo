@@ -1,6 +1,5 @@
 import pandas as pd
 import sqlalchemy
-from time import strftime
 
 conn = sqlalchemy.create_engine('mysql+pymysql://root@localhost/test')
 
